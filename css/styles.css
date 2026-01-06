@@ -1,0 +1,26 @@
+*{
+      font-family: "Poppins", sans-serif !important;
+}
+.fondoOscuro{
+    background-color: rgb(0 0 0 / 50%);
+}
+
+/* Header */
+header{
+    background-image: url(../img/headerBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+
+    position: relative;
+}
+.logoNavbar{
+    font-weight: 600;
+    color: #fff;
+}
+.logoNavbar span{
+    color: #FFCC00;
+}
+.btn-navbar-background{
+    background-color: #fff;
+}
