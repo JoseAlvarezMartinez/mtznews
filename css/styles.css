@@ -14,7 +14,7 @@ header{
 
     position: relative;
 }
-.logoNavbar{
+.logoNavbar,.header-h2,.header-p{
     font-weight: 600;
     color: #fff;
 }
@@ -23,4 +23,11 @@ header{
 }
 .btn-navbar-background{
     background-color: #fff;
+}
+
+.header-h2{
+    font-size: 1.5rem;
+}
+.header-p{
+    font-size: 0.875rem;
 }
