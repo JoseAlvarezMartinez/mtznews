@@ -14,10 +14,7 @@ header{
 
     position: relative;
 }
-.logoNavbar,.header-h2,.header-p{
-    font-weight: 600;
-    color: #fff;
-}
+
 .logoNavbar span{
     color: #FFCC00;
 }
@@ -28,6 +25,35 @@ header{
 .header-h2{
     font-size: 1.5rem;
 }
-.header-p{
+.header-p,.main-h2,.main-p{
     font-size: 0.875rem;
+}
+
+/* Main */
+main{
+      padding: 3.125rem 1.563rem;
+}
+.main-componentes-contenedor{
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+}
+.main-article-superior{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.main-h2,.main-p{
+    margin: 0;
+}
+.main-componente{
+    background-color: #F1F1F1;
+    padding: 2.25rem 0.938rem;
+}
+.main-componente-titulo{
+    font-size: 0.938rem;
+}
+.main-componente-descripcion{
+    font-size: 0.75rem;
 }
